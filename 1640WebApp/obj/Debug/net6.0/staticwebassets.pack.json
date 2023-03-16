@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\1640WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\1640WebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\Uploads\\25911f32-0324-4afb-af46-0d40bdd90b34.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\25911f32-0324-4afb-af46-0d40bdd90b34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\Uploads\\272be82e-ff4d-449d-bbe6-08ef6755446e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\272be82e-ff4d-449d-bbe6-08ef6755446e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\Uploads\\2d1cc70b-1cd2-4d47-a9a8-de9661bd2d26.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2d1cc70b-1cd2-4d47-a9a8-de9661bd2d26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\Uploads\\2d866e2d-6cbd-49a9-8e00-dd5c82a5c5ba.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\2d866e2d-6cbd-49a9-8e00-dd5c82a5c5ba.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\Uploads\\3752649c-8d9b-4530-a46d-bc997cd5e402.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\3752649c-8d9b-4530-a46d-bc997cd5e402.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\Uploads\\55022608-d36e-4255-8b54-8578463d4ca0.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\55022608-d36e-4255-8b54-8578463d4ca0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\Uploads\\82a4519b-0e2e-402b-8e39-2ae981fa21d1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\82a4519b-0e2e-402b-8e39-2ae981fa21d1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\Uploads\\aa8845fc-37a1-4b18-9d1d-ea2fa39ffa41.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\aa8845fc-37a1-4b18-9d1d-ea2fa39ffa41.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\css\\AddIdeas.css",
+      "PackagePath": "staticwebassets\\css\\AddIdeas.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\css\\Footer.css",
+      "PackagePath": "staticwebassets\\css\\Footer.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\css\\Header.css",
+      "PackagePath": "staticwebassets\\css\\Header.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\css\\reactAnimation.css",
+      "PackagePath": "staticwebassets\\css\\reactAnimation.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\css\\site1.css",
+      "PackagePath": "staticwebassets\\css\\site1.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\css\\styleLikeF.css",
+      "PackagePath": "staticwebassets\\css\\styleLikeF.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\background.jfif",
+      "PackagePath": "staticwebassets\\images\\background.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\boy.jpg",
+      "PackagePath": "staticwebassets\\images\\boy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\dp.jpg",
+      "PackagePath": "staticwebassets\\images\\dp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\flowers.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\girl.jpg",
+      "PackagePath": "staticwebassets\\images\\girl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\girl_with_light.jpg",
+      "PackagePath": "staticwebassets\\images\\girl_with_light.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\greenwich.jfif",
+      "PackagePath": "staticwebassets\\images\\greenwich.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\greenwich1.jfif",
+      "PackagePath": "staticwebassets\\images\\greenwich1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\herbs.jpg",
+      "PackagePath": "staticwebassets\\images\\herbs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\images.txt",
+      "PackagePath": "staticwebassets\\images\\images.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\logo1-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\logo1-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\model.jpg",
+      "PackagePath": "staticwebassets\\images\\model.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\mountains.jpg",
+      "PackagePath": "staticwebassets\\images\\mountains.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\shoes.jpg",
+      "PackagePath": "staticwebassets\\images\\shoes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\wp4003779.webp",
+      "PackagePath": "staticwebassets\\images\\wp4003779.webp"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.1640WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.1640WebApp.props",
+      "PackagePath": "build\\1640WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.1640WebApp.props",
+      "PackagePath": "buildMultiTargeting\\1640WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.1640WebApp.props",
+      "PackagePath": "buildTransitive\\1640WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

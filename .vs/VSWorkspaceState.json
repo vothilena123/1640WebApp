@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\1640WebApp",
+    "\\1640WebApp\\Areas",
+    "\\1640WebApp\\Areas\\Identity",
+    "\\1640WebApp\\Areas\\Identity\\Pages",
+    "\\1640WebApp\\Areas\\Identity\\Pages\\Account",
+    "\\1640WebApp\\Areas\\Identity\\Pages\\Account\\Manage",
+    "\\1640WebApp\\Controllers",
+    "\\1640WebApp\\Views",
+    "\\1640WebApp\\Views\\User"
+  ],
+  "SelectedNode": "\\1640WebApp.sln",
+  "PreviewInSolutionExplorer": false
+}

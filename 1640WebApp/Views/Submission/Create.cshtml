@@ -1,0 +1,81 @@
+﻿@model _1640WebApp.Data.Submission
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    .contain-create {
+        background-image: url('https://media.istockphoto.com/id/1356933529/photo/futuristic-technology-wave-digital-cyberspace-abstract-wave-with-moving-particles-on.jpg?b=1&s=170667a&w=0&k=20&c=OY4o0-8rTUd2_JXj7rQAeMGioyUjuxthyqbWuYaqGVU=');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 57px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        overflow-y: scroll !important;
+        padding-left: 70px;
+        color: white;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+</style>
+
+<div>
+    <div class="contain-create">
+        <div style="margin-top:60px;"></div>
+        <h1>Create</h1>
+        <h4>Submission</h4>
+        <hr />
+        <div>
+            <div class="col-md-4">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Description" class="control-label"></label>
+                        <textarea asp-for="Description" name="" class="form-control"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ClosureDate" class="control-label"></label>
+                        <input asp-for="ClosureDate" class="form-control" />
+                        <span asp-validation-for="ClosureDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="FinalClosureTime" class="control-label"></label>
+                        <input asp-for="FinalClosureTime" class="form-control" />
+                        <span asp-validation-for="FinalClosureTime" class="text-danger"></span>
+                    </div>
+                    <div style="height:15px;"> </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://cdn.tiny.cloud/1/v35b6mka7tqonc1bsr1cojk8dn1zd62p2vx5v5dhdq82505k/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+ 
+}
