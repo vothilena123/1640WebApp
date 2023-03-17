@@ -3,47 +3,101 @@
 @{
     ViewData["Title"] = "Index";
 }
-<div style="height:70px;"></div>
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Submission)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+@{
+    Layout = "_Layout";
+}
+<style>
+    .contain-create {
+        background-image: url('https://static.vecteezy.com/system/resources/thumbnails/015/287/575/original/purple-themed-particle-form-futuristic-neon-graphic-background-science-energy-3d-abstract-art-element-illustration-technology-artificial-intelligence-shape-theme-wallpaper-animation-free-video.jpg');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 57px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        overflow-y: scroll !important;
+        padding-left: 70px;
+        color: white;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+
+    table {
+        color: white;
+        background-color: azure;
+        opacity: 85%;
+        min-height: 400px;
+        padding: 10px;
+        width: 91.5% !important;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .button1 {
+        background-color: forestgreen;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+        margin: 10px 10px 10px 0px;
+    }
+
+    .button2 {
+        background-color: darkviolet;
+        padding: 6px;
+        color: white;
+        border-radius: 10px;
+    }
+
+    a:hover {
+        color: red !important;
+        margin: 3px;
+    }
+</style>
+<div class="contain-create">
+    <div style="height:50px;"></div>
+    <h1>Index</h1>
+
+    
+    <table class="table">
+        <thead>
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Title)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.User.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Submission.Id)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
-                    <a asp-action="ViewIdeas" asp-route-id="@item.Id">View</a>
-                </td>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.User)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Submission)
+                </th>
+                <th></th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Submission.Id)
+                    </td>
+                    <td>
+                        <a class="button2" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a class="button2" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a class="button2" asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                        <a class="button2" asp-action="ViewIdeas" asp-route-id="@item.Id">View</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

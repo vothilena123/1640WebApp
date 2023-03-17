@@ -3,10 +3,12 @@
 @{
     ViewData["Title"] = "Create";
 }
-
+@{
+    Layout = "_Layout";
+}
 <style>
     .contain-create {
-        background-image: url('https://media.istockphoto.com/id/1356933529/photo/futuristic-technology-wave-digital-cyberspace-abstract-wave-with-moving-particles-on.jpg?b=1&s=170667a&w=0&k=20&c=OY4o0-8rTUd2_JXj7rQAeMGioyUjuxthyqbWuYaqGVU=');
+        background-image: url('https://static.vecteezy.com/system/resources/thumbnails/015/287/575/original/purple-themed-particle-form-futuristic-neon-graphic-background-science-energy-3d-abstract-art-element-illustration-technology-artificial-intelligence-shape-theme-wallpaper-animation-free-video.jpg');
         object-fit: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -24,8 +26,8 @@
     }
 </style>
 
-<div>
-    <div class="contain-create">
+<div class="contain-create">
+    <div >
         <div style="margin-top:60px;"></div>
         <h1>Create</h1>
         <h4>Submission</h4>
@@ -42,7 +44,7 @@
 
                     <div class="form-group">
                         <label asp-for="Description" class="control-label"></label>
-                        <textarea asp-for="Description" name="" class="form-control"></textarea>
+                        <textarea asp-for="Description" class="form-control"></textarea>
                         <span asp-validation-for="Description" class="text-danger"></span>
                     </div>
                     <div class="form-group">
@@ -70,12 +72,8 @@
 </div>
 
 
-
-
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
-    <script src="https://cdn.tiny.cloud/1/v35b6mka7tqonc1bsr1cojk8dn1zd62p2vx5v5dhdq82505k/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
- 
 }

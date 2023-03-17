@@ -13,8 +13,7 @@ namespace _1640WebApp.Data
         public string? Fullname_ { get; set; }
         public string? Address { get; set; }
         public string? HomeTown { get; set; }
-        public string? SocialMedia { get; set; }
-
+        public string? SocialMedia { get; set; }       
         public string? Image { get; set; }
 
         public int DepartmentId { get; set; }
@@ -42,6 +41,9 @@ namespace _1640WebApp.Data
         public DateTime Datatime { get; set; }
         public string? CategoryId { get; set; }
         public byte[]? Data { get; set; }
+        public bool Anonymous { get; set; } = false;
+
+
 
 
         public string? UserId { get; set; }
@@ -59,6 +61,9 @@ namespace _1640WebApp.Data
     }
 
     
+
+
+
     [Table("Catogorys")]
 
     public class Catogory

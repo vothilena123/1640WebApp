@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace _1640WebApp.Controllers
 {
@@ -177,12 +178,12 @@ namespace _1640WebApp.Controllers
         // GET: Submissions/AddIdeas/1
         public IActionResult AddIdeas(int? id)
         {
+            var submission = _context.Submissions.Include(s => s.Ideas).FirstOrDefault(s => s.Id == id);
+
             if (id == null)
             {
                 return NotFound();
             }
-
-            var submission = _context.Submissions.Include(s => s.Ideas).FirstOrDefault(s => s.Id == id);
 
             if (submission == null)
             {
@@ -192,31 +193,24 @@ namespace _1640WebApp.Controllers
             return View(submission);
         }
 
-        // POST: Submissions/AddIdeas/1
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddIdeas(int id, [Bind("Id,Title,Text,FilePath,Datatime,CategoryId,UserId,SubmissionId")] Idea idea)
+        public IActionResult AddIdeas(Idea idea, int submissionId)
         {
-            if (id != idea.SubmissionId)
-            {
-                return NotFound();
-            }
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier).Value;
 
-            if (ModelState.IsValid)
-            {
-                _context.Add(idea);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(AddIdeas), new { id });
-            }
+            idea.UserId = userId;
+            _context.Add(idea);
 
-            var submission = _context.Submissions.Include(s => s.Ideas).FirstOrDefault(s => s.Id == id);
-
+            var submission = _context.Submissions.Find(submissionId);
             if (submission == null)
             {
                 return NotFound();
             }
 
-            return View(submission);
+            submission.Ideas.Add(idea); 
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Submission");
         }
 
 

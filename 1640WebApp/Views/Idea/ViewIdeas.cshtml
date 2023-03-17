@@ -221,15 +221,27 @@
                 @foreach (var item in Model)
                 {
                     <div class="post">
-                    <div class="post-top">
-                        <div class="dp">
-                            <img src="~/images/girl.jpg" alt="">
-                        </div>
-                        <div class="post-info">
-                                <p class="name">@Html.DisplayFor(modelItem => item.User.Fullname_)</p>
-                                <span class="time">@Html.DisplayFor(modelItem => item.Datatime)</span>
-                        </div>
-                        <i class="fas fa-ellipsis-h"></i>
+                        <div class="post-top">
+                            @if( item.Anonymous == true){
+                                <div class="dp">
+                                    <img src="~/images/download.png" alt="">
+                                </div>
+                                <div class="post-info">
+                                    <p class="name">Incognito</p>
+                                    <span class="time">@Html.DisplayFor(modelItem => item.Datatime)</span>
+                                </div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            }else {
+                                <div class="dp">
+                                    <img src="~/images/girl.jpg" alt="">
+                                </div>
+                                <div class="post-info">
+                                    <p class="name">@Html.DisplayFor(modelItem => item.User.Fullname_)</p>
+                                    <span class="time">@Html.DisplayFor(modelItem => item.Datatime)</span>
+                                </div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            }
+                        
                     </div>
                     
                     <div class="post-content">

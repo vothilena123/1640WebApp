@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\images\\boy.jpg"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\download.png",
+      "PackagePath": "staticwebassets\\images\\download.png"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\dp.jpg",
       "PackagePath": "staticwebassets\\images\\dp.jpg"
     },

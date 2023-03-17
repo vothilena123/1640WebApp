@@ -20,30 +20,36 @@
             font-weight:300;
         }
 
+        .okeconde{
+            background-color:black !important;
+        }
+
         .oke {
+            
             text-decoration: underline;
-            color: black;
+            color: white !important;
             transition: 0.5s;
             font-weight: bold;
             padding: 7px;
             text-align: center;
             border: none;
-            background-color: white;
+            background-color: black !important;
         }
         .oke:hover {
                 color: #16c8e3 !important;
+                background-color: grey !important;
         }
     </style>
 </head>
 <body class="body">
     <header >
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 okeconde">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="oke" asp-area="" asp-controller="Home" asp-action="MainHome">Home</a>

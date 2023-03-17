@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Gwwae8gyrnsE8iJyHVozEIQ7lOpbzMmiKFj8nlfsKMo=",
+  "Hash": "YpR2eKcpqtHA7PwziDqLAeuQ703mkdFcC+c2bbF314c=",
   "Source": "1640WebApp",
   "BasePath": "_content/1640WebApp",
   "Mode": "Default",
@@ -1256,6 +1256,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\boy.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\download.png",
+      "SourceId": "1640WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\",
+      "BasePath": "_content/1640WebApp",
+      "RelativePath": "images/download.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\download.png"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\images\\dp.jpg",

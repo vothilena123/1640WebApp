@@ -58,10 +58,9 @@ namespace _1640WebApp.Controllers
         }
 
         // GET: Ideas/Create
-        public IActionResult Create()
+        public IActionResult Create(int submissionId)
         {
-            ViewData["SubmissionId"] = new SelectList(_context.Submissions, "Id", "Id");
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id");
+            ViewBag.SubmissionId = submissionId;    
             return View();
         }
 
@@ -70,13 +69,16 @@ namespace _1640WebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,UserId,SubmissionId")] Idea idea)
-        {
+        public async Task<IActionResult> Create(int submissionId,Idea idea)
+        {           
+            var newIdea = new Idea { SubmissionId = submissionId };
             var userId = User.FindFirst(ClaimTypes.NameIdentifier).Value;
 
+            
             idea.UserId = userId;
-
+                                
             _context.Add(idea);
+
             var submission = await _context.Submissions.FindAsync(idea.SubmissionId);
 
             if (submission == null)
@@ -94,14 +96,10 @@ namespace _1640WebApp.Controllers
             submission.Ideas.Add(idea);
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-            
-            ViewData["SubmissionId"] = new SelectList(_context.Submissions, "Id", "Id", idea.SubmissionId);
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", idea.UserId);
-            ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Id", idea.DepartmentId);
-
-            return View(idea);
+            return RedirectToAction(nameof(Index));         
         }
+
+
 
         // GET: Ideas/Edit/5
         public async Task<IActionResult> Edit(int? id)
