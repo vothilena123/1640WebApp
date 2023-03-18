@@ -78,15 +78,22 @@ namespace _1640WebApp.Controllers
         public async Task<IActionResult> Create(int submissionId,Idea idea, IFormCollection form)
         {
             var categoryIds = form["categories"].ToString().Split(",");
-            idea.Catogories = new List<Catogory>(); // khởi tạo list categories trước khi thêm vào
+            idea.Catogories = new List<Catogory>(); // khởi tạo list categories trước khi thêm vào           
             foreach (var categoryId in categoryIds)
             {
-                var category = _context.Catogorys.Find(int.Parse(categoryId));
-                if (category != null)
+                if (int.TryParse(categoryId, out int categoryIdInt))
                 {
-                    idea.Catogories.Add(category);
+                    var category = _context.Catogorys.Find(categoryIdInt);
+                    if (category != null)
+                    {
+                        idea.Catogories.Add(category);
+                    }
                 }
             }
+            // Đăng bài ẩn danh
+            // Xác định trạng thái của checkbox và gán vào thuộc tính `Anonymous` của `idea`
+            idea.Anonymous = Request.Form["Anonymous"].Count > 0;
+
             var newIdea = new Idea { SubmissionId = submissionId };
             var userId = User.FindFirst(ClaimTypes.NameIdentifier).Value;
 

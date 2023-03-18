@@ -18,6 +18,9 @@
         color: white;
         font-weight: bold;
     }
+
+    check-box{
+    margin : 5px 5px 5px 0px !important;}
     
 </style>
 
@@ -59,11 +62,26 @@
                 <div class="form-group">
                     <label for="categories">Categories:</label>
                     <select id="categories" name="categories" multiple class="form-control">
-                        @foreach (var category in ViewBag.Categories)
+                        @if (ViewBag.Categories != null)
                         {
-                            <option value="@category.Id">@category.Name</option>
+                            @foreach (var category in ViewBag.Categories)
+                            {
+                                <option value="@category.Id">@category.Name</option>
+                            }
+                        }
+                        else
+                        {
+                            <option value="">No categories found</option>
                         }
                     </select>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox form-inline">
+                        <label>
+                            <input type="checkbox" class="form-check-input form-check-input-lg" asp-for="Anonymous" />
+                        </label>
+                        <label asp-for="Anonymous" class="control-label">Incognito Mode</label>
+                    </div>
                 </div>
                 <div style="height:15px;"></div>
                 <div class="form-group">
