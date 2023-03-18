@@ -69,7 +69,7 @@
                     @Html.DisplayNameFor(model => model.Title)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.User)
+                    @Html.DisplayNameFor(model => model.Catogories)
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Submission)
@@ -85,7 +85,15 @@
                         @Html.DisplayFor(modelItem => item.Title)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.User.Id)
+                        @if (item.Catogories.FirstOrDefault() != null)
+                        {
+                            <p>@string.Join(", ", item.Catogories.Select(c => c.Name))</p>
+                        }
+                        else
+                        {
+                            <p>No category found</p>
+                        }
+
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Submission.Id)

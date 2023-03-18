@@ -42,7 +42,6 @@ namespace _1640WebApp.Controllers
                 DepartmentId = user.DepartmentId,
                 Departments = departments,
                 
-                
             };
 
             return View(model);

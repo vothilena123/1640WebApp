@@ -53,7 +53,7 @@ namespace _1640WebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,ClosureDate,FinalClosureTime")] Submission submission)
+        public async Task<IActionResult> Create(Submission submission)
         {
             //if (ModelState.IsValid)
             {

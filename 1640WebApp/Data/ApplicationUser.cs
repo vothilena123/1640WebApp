@@ -36,18 +36,18 @@ namespace _1640WebApp.Data
     {
         public int Id { get; set; }
         public string Title { get; set; } = string.Empty;
-        public string? Text { get; set; }
+        public string Text { get; set; } = string.Empty;
         public string? FilePath { get; set; }
         public DateTime Datatime { get; set; }
-        public string? CategoryId { get; set; }
-        public byte[]? Data { get; set; }
+        public string? CategoryId { get; set; } 
+        public byte[]? Data { get; set; } 
         public bool Anonymous { get; set; } = false;
-
+        public int IdeaId { get; set; }
 
 
 
         public string? UserId { get; set; }
-        public int DepartmentId { get; set; }
+        public int DepartmentId { get; set; }   
         public virtual ApplicationUser? User { get; set; }
 
 
@@ -57,6 +57,7 @@ namespace _1640WebApp.Data
         public virtual ICollection<Comment>? Comments { get; set; }
         public virtual ICollection<React>? Reacts { get; set; }
         public virtual ICollection<CView>? Views { get; set; }
+        public virtual ICollection<Catogory>? Catogories { get; set; }
 
     }
 
@@ -71,7 +72,8 @@ namespace _1640WebApp.Data
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
 
-        public virtual ICollection<Idea>? Ideas { get; set; }
+        [ForeignKey("Idea")]
+        public int CategoryId { get; set; }
 
     }
 

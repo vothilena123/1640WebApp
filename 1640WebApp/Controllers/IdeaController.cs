@@ -1,5 +1,6 @@
 ﻿using _1640WebApp.Data;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,18 +12,21 @@ namespace _1640WebApp.Controllers
 
     public class IdeaController : Controller
     {
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly ApplicationDbContext _context;
 
-        public IdeaController(ApplicationDbContext context)
+        public IdeaController(ApplicationDbContext context = null, UserManager<ApplicationUser> userManager = null)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Ideas
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Ideas.Include(i => i.Submission).Include(i => i.User);
-            return View(await applicationDbContext.ToListAsync());
+            var ideas = _context.Ideas.Include(i => i.Catogories).Include(i => i.Submission).Include(i => i.User);
+
+            return View(await ideas.ToListAsync());
         }
 
         // GET: ViewIdeas
@@ -60,7 +64,9 @@ namespace _1640WebApp.Controllers
         // GET: Ideas/Create
         public IActionResult Create(int submissionId)
         {
-            ViewBag.SubmissionId = submissionId;    
+            ViewBag.SubmissionId = submissionId;
+            ViewBag.Categories = _context.Catogorys.ToList();
+   
             return View();
         }
 
@@ -69,8 +75,18 @@ namespace _1640WebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(int submissionId,Idea idea)
-        {           
+        public async Task<IActionResult> Create(int submissionId,Idea idea, IFormCollection form)
+        {
+            var categoryIds = form["categories"].ToString().Split(",");
+            idea.Catogories = new List<Catogory>(); // khởi tạo list categories trước khi thêm vào
+            foreach (var categoryId in categoryIds)
+            {
+                var category = _context.Catogorys.Find(int.Parse(categoryId));
+                if (category != null)
+                {
+                    idea.Catogories.Add(category);
+                }
+            }
             var newIdea = new Idea { SubmissionId = submissionId };
             var userId = User.FindFirst(ClaimTypes.NameIdentifier).Value;
 
