@@ -156,24 +156,6 @@ namespace _1640WebApp.Controllers
         {
             return _context.Submissions.Any(e => e.Id == id);
         }
-
-        // GET: Submissions/ViewIdeas/5
-        public IActionResult ViewIdeas(int SubmissionId)
-        {
-            Idea idea = new Idea { Id = SubmissionId };
-            // Validate the idea object
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            // Add the idea to the repository
-            _context.Ideas.Add(idea);
-            /*_context.SaveChanges();*/
-
-            return View(idea);
-        }
-
-
         //------------------------------------------------------
         // GET: Submissions/AddIdeas/1
         public IActionResult AddIdeas(int? id)

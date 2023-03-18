@@ -44,6 +44,8 @@ namespace _1640WebApp.Data
         public bool Anonymous { get; set; } = false;
         public int IdeaId { get; set; }
 
+        public string CreatorEmail { get; set; } = "";
+
 
 
         public string? UserId { get; set; }

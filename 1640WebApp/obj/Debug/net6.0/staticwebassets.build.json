@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YpR2eKcpqtHA7PwziDqLAeuQ703mkdFcC+c2bbF314c=",
+  "Hash": "lzbwhkT9rZq3wDX5nP9NyPBeIzRqScD7uN/i3r+iEM0=",
   "Source": "1640WebApp",
   "BasePath": "_content/1640WebApp",
   "Mode": "Default",
@@ -1511,6 +1511,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\wp4003779.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\js\\comment.js",
+      "SourceId": "1640WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\",
+      "BasePath": "_content/1640WebApp",
+      "RelativePath": "js/comment.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\comment.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\1640WebApp\\1640WebApp\\1640WebApp\\wwwroot\\js\\site.js",

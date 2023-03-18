@@ -77,6 +77,7 @@ namespace _1640WebApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(int submissionId,Idea idea, IFormCollection form)
         {
+            idea.CreatorEmail = User.FindFirst(ClaimTypes.Email)?.Value;
             var categoryIds = form["categories"].ToString().Split(",");
             idea.Catogories = new List<Catogory>(); // khởi tạo list categories trước khi thêm vào           
             foreach (var categoryId in categoryIds)
@@ -127,12 +128,19 @@ namespace _1640WebApp.Controllers
         // GET: Ideas/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var idea = await _context.Ideas.FindAsync(id);
+            var currentUserEmail = User.FindFirst(ClaimTypes.Email)?.Value;
+            if (idea.CreatorEmail != currentUserEmail)
+            {
+                return Unauthorized();
+            }
+
             if (id == null || _context.Ideas == null)
             {
                 return NotFound();
             }
 
-            var idea = await _context.Ideas.FindAsync(id);
+            /*var idea = await _context.Ideas.FindAsync(id);*/
             if (idea == null)
             {
                 return NotFound();
@@ -194,6 +202,11 @@ namespace _1640WebApp.Controllers
             if (idea == null)
             {
                 return NotFound();
+            }
+            var currentUserEmail = User.FindFirst(ClaimTypes.Email)?.Value;
+            if (idea.CreatorEmail != currentUserEmail)
+            {
+                return Unauthorized();
             }
 
             return View(idea);
